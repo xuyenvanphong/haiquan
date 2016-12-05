@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78A91022-A2D4-4D4B-9671-E4D9135AA544}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\baopq1.css" />
+    <Content Include="css\baopq2.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\css.css" />
+    <Content Include="css\css_002.css" />
+    <Content Include="css\css_4Di_03KRm0_L6UFwnFFsPRbDToklY8_pt46kAobJdlg.css" />
+    <Content Include="css\css_bKWyDe-9k0-upAbR6JeJNChJcBr0TKPz3GoJPkesDak.css" />
+    <Content Include="css\css_JXAL8-TqKBe2gYQKnMwh5Ji2DY_KS_8sbq8Ro_68EzI.css" />
+    <Content Include="css\css_KpHsFsHL5G3x9EUJr5pMqQKsGs4fdCXEGrY6HhOgLHA.css" />
+    <Content Include="css\css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" />
+    <Content Include="css\css_LWLBvN4Of_e6mtbTSKM1L7BQObBuLQk3wvZoeYzfC_c.css" />
+    <Content Include="css\css_q-nh_HSxeCZXJ4r1Q-EbdoVl7hC9uX58O-Fmbmvez_g.css" />
+    <Content Include="css\css_Tq3HIVcKirVeQ5y9oJutqcNR5NANWL0-ypqKWBwsP6c.css" />
+    <Content Include="css\css_Uj5R6RP_m4H0GmZqx-KzaUwN_2a3RjXJcZHgWmjmBS8.css" />
+    <Content Include="css\font.css" />
+    <Content Include="css\gg.css" />
+    <Content Include="css\h1.css" />
+    <Content Include="css\jquery.e-calendar.css" />
+    <Content Include="css\jquerysctipttop.css" />
+    <Content Include="css\kalendar.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="img\02.jpg" />
+    <Content Include="img\04.jpg" />
+    <Content Include="img\05.jpg" />
+    <Content Include="img\09.jpg" />
+    <Content Include="img\17868-hq-cang-sg-kv1-kt-hang-nk-2015-01-06 07-35-59.477.jpg" />
+    <Content Include="img\a12.png" />
+    <Content Include="img\arrows.png" />
+    <Content Include="img\b05.png" />
+    <Content Include="img\banana.jpg" />
+    <Content Include="img\banner-impact_blog.png" />
+    <Content Include="img\bg_calendar_nav.png" />
+    <Content Include="img\bg_control_nav.png" />
+    <Content Include="img\bg_event_nav.png" />
+    <Content Include="img\bg_expand-collapse-corner.png" />
+    <Content Include="img\bg_mainmenu_hover.png" />
+    <Content Include="img\bg_mainmenu_parent_slide.png" />
+    <Content Include="img\bg_mobile_menu_back.png" />
+    <Content Include="img\bg_mobile_menu_expanded.png" />
+    <Content Include="img\bg_partner_collapse_long.png" />
+    <Content Include="img\bg_partner_collapse_short.png" />
+    <Content Include="img\boxarrow.gif" />
+    <Content Include="img\btn_mobile_menu_trigger.png" />
+    <Content Include="img\btn_partner_opp.jpg" />
+    <Content Include="img\corporations.jpg" />
+    <Content Include="img\corporations_0.png" />
+    <Content Include="img\currant.jpg" />
+    <Content Include="img\diaspora.png" />
+    <Content Include="img\donors_0.png" />
+    <Content Include="img\faithbased.jpg" />
+    <Content Include="img\faithbased_0.png" />
+    <Content Include="img\fieldset-trigger.png" />
+    <Content Include="img\floating-footer-bg-tile.png" />
+    <Content Include="img\floating-footer-sep.png" />
+    <Content Include="img\go.gif" />
+    <Content Include="img\hai3jufa_PXDE.jpg" />
+    <Content Include="img\header-crisis-response.png" />
+    <Content Include="img\headingarrow.gif" />
+    <Content Include="img\headingarrowcurrent.gif" />
+    <Content Include="img\homepage_amani_idea.jpg" />
+    <Content Include="img\homepage_carousel_food_security.jpg" />
+    <Content Include="img\homepage_ghana_FTF.jpg" />
+    <Content Include="img\homepage_humanityacts.jpg" />
+    <Content Include="img\homepage_off-grid-energy.jpg" />
+    <Content Include="img\hqhcm1.jpg" />
+    <Content Include="img\HQSB.JPG" />
+    <Content Include="img\humanitarian-responders.png" />
+    <Content Include="img\icon-camera.png" />
+    <Content Include="img\icon-date.png" />
+    <Content Include="img\icon-location.png" />
+    <Content Include="img\icons_sidebar.png" />
+    <Content Include="img\imgMenuMobile.png" />
+    <Content Include="img\impactblog.jpg" />
+    <Content Include="img\incountry.png" />
+    <Content Include="img\learnmorearrow.png" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\mango.jpg" />
+    <Content Include="img\maxresdefault.jpg" />
+    <Content Include="img\menu1.jpg" />
+    <Content Include="img\military.jpg" />
+    <Content Include="img\news_information_cviseux.jpg" />
+    <Content Include="img\ngo.jpg" />
+    <Content Include="img\ngo_1.png" />
+    <Content Include="img\quicktabs-flag-sm2.png" />
+    <Content Include="img\quicktabs-flag2.png" />
+    <Content Include="img\researchers-scientist-innovators.png" />
+    <Content Include="img\resourcebutton.jpg" />
+    <Content Include="img\results_and_data_obenbila.jpg" />
+    <Content Include="img\smallbus.png" />
+    <Content Include="img\smicons.jpg" />
+    <Content Include="img\socialsprite.jpg" />
+    <Content Include="img\spacer.gif" />
+    <Content Include="img\stickyfooter.png" />
+    <Content Include="img\strawberries.jpg" />
+    <Content Include="img\tab.gif" />
+    <Content Include="img\textured-button.png" />
+    <Content Include="img\tin1.jpg" />
+    <Content Include="img\tin2.jpg" />
+    <Content Include="img\tin3.jpg" />
+    <Content Include="img\tin4.jpg" />
+    <Content Include="img\toggle-minus.png" />
+    <Content Include="img\toggle-plus.png" />
+    <Content Include="img\touchIcon.png" />
+    <Content Include="img\ToutLGBTVision.jpg" />
+    <Content Include="img\tout_impactnewsletter_070716.jpg" />
+    <Content Include="img\tout_repdata_georgia.jpg" />
+    <Content Include="img\tout_storyhub_tablet2.png" />
+    <Content Include="img\universities.jpg" />
+    <Content Include="img\universities_0.png" />
+    <Content Include="img\us-gov-military.png" />
+    <Content Include="img\VBF.jpg" />
+    <Content Include="img\what_we_do_usaid.jpg" />
+    <Content Include="img\where_we_work_sobwana.jpg" />
+    <Content Include="img\whoweare_ftf.jpg" />
+    <Content Include="img\work_with_us_astern.jpg" />
+    <Content Include="js\analytics.js" />
+    <Content Include="js\federated-analytics.js" />
+    <Content Include="js\jquery-1.11.0.min.js" />
+    <Content Include="js\jquery-1.11.3.min.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery.e-calendar.js" />
+    <Content Include="js\jquery.jcarousel.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jssor.slider.debug.js" />
+    <Content Include="js\jssor.slider.min.js" />
+    <Content Include="js\jssor.slider.mini.js" />
+    <Content Include="js\js_7p3RnfRwysYwbNTc3u_nKBpo2aMwVMOopbvDAKbWCLk.js" />
+    <Content Include="js\js_g5eMMwjjRDCXv45Sk5CpPTNr8udmo9-Iazt5iMbnqcI.js" />
+    <Content Include="js\js_meDomBEy82aWXpUVuohOCqoX7y2SY1EL4mcRvK0f97E.js" />
+    <Content Include="js\js_MLVgtzZ1ORq9krYqkeOsRay6ou_T-0QZytivuM9tTT8.js" />
+    <Content Include="js\js_NpX2cwCeepkWZZ194B6-ViyVBHleaYLOx5R9EWBOMRU.js" />
+    <Content Include="js\js_nT-3TqmhkiIn30tHICx1inWtvQizOLtaBPI9cbRYVJE.js" />
+    <Content Include="js\js_pIpuhvtnpMxfZE6VxtQRDGP-LBDRePjVfD4YZR5xZfI.js" />
+    <Content Include="js\js_UWQINlriydSoeSiGQxToOUdv493zEa7dpsXC1OtYlZU.js" />
+    <Content Include="js\js__Bs981gg9r8F4i42QmQpehahgnuJSQF7lNiMlU1QNK0.js" />
+    <Content Include="js\kalendar.js" />
+    <Content Include="js\responsive-elements.js" />
+    <Content Include="js\widgets.js" />
+    <Content Include="js\www-widgetapi.js" />
+    <Content Include="quicktabs\ajax\front_page_quick_tab\1\view\carousels\block_1\1\home\1.html" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="sites\all\themes\usaid\images\arrows.png" />
+    <Content Include="sites\all\themes\usaid\images\banner-impact_blog.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_calendar_nav.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_control_nav.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_event_nav.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_expand-collapse-corner.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_mainmenu_hover.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_mainmenu_parent_slide.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_mobile_menu_back.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_mobile_menu_expanded.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_partner_collapse_long.png" />
+    <Content Include="sites\all\themes\usaid\images\bg_partner_collapse_short.png" />
+    <Content Include="sites\all\themes\usaid\images\boxarrow.gif" />
+    <Content Include="sites\all\themes\usaid\images\btn_mobile_menu_trigger.png" />
+    <Content Include="sites\all\themes\usaid\images\btn_partner_opp.jpg" />
+    <Content Include="sites\all\themes\usaid\images\corporations.jpg" />
+    <Content Include="sites\all\themes\usaid\images\faithbased.jpg" />
+    <Content Include="sites\all\themes\usaid\images\fieldset-trigger.png" />
+    <Content Include="sites\all\themes\usaid\images\floating-footer-bg-tile.png" />
+    <Content Include="sites\all\themes\usaid\images\floating-footer-sep.png" />
+    <Content Include="sites\all\themes\usaid\images\go.gif" />
+    <Content Include="sites\all\themes\usaid\images\header-crisis-response.png" />
+    <Content Include="sites\all\themes\usaid\images\headingarrow.gif" />
+    <Content Include="sites\all\themes\usaid\images\headingarrowcurrent.gif" />
+    <Content Include="sites\all\themes\usaid\images\icon-camera.png" />
+    <Content Include="sites\all\themes\usaid\images\icon-date.png" />
+    <Content Include="sites\all\themes\usaid\images\icon-location.png" />
+    <Content Include="sites\all\themes\usaid\images\icons_sidebar.png" />
+    <Content Include="sites\all\themes\usaid\images\imgMenuMobile.png" />
+    <Content Include="sites\all\themes\usaid\images\impactblog.jpg" />
+    <Content Include="sites\all\themes\usaid\images\learnmorearrow.png" />
+    <Content Include="sites\all\themes\usaid\images\military.jpg" />
+    <Content Include="sites\all\themes\usaid\images\ngo.jpg" />
+    <Content Include="sites\all\themes\usaid\images\quicktabs-flag-sm2.png" />
+    <Content Include="sites\all\themes\usaid\images\quicktabs-flag2.png" />
+    <Content Include="sites\all\themes\usaid\images\resourcebutton.jpg" />
+    <Content Include="sites\all\themes\usaid\images\smicons.jpg" />
+    <Content Include="sites\all\themes\usaid\images\socialsprite.jpg" />
+    <Content Include="sites\all\themes\usaid\images\spacer.gif" />
+    <Content Include="sites\all\themes\usaid\images\stickyfooter.png" />
+    <Content Include="sites\all\themes\usaid\images\tab.gif" />
+    <Content Include="sites\all\themes\usaid\images\textured-button.png" />
+    <Content Include="sites\all\themes\usaid\images\toggle-minus.png" />
+    <Content Include="sites\all\themes\usaid\images\toggle-plus.png" />
+    <Content Include="sites\all\themes\usaid\images\universities.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7880/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

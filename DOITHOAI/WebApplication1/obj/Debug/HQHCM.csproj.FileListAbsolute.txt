@@ -1,0 +1,10 @@
+D:\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\bin\WebApplication1.dll
+D:\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\bin\WebApplication1.pdb
+D:\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\obj\Debug\WebApplication1.dll
+D:\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\obj\Debug\HQHCM.csprojResolveAssemblyReference.cache
+D:\PROJECT HQ\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\bin\WebApplication1.dll
+D:\PROJECT HQ\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\bin\WebApplication1.pdb
+D:\PROJECT HQ\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\obj\Debug\WebApplication1.dll
+D:\PROJECT HQ\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\PROJECT HQ\PROJECT WEB HQHCM\DOITHOAI\WebApplication1\obj\Debug\HQHCM.csprojResolveAssemblyReference.cache
